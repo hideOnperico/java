@@ -1,0 +1,110 @@
+  package co.edu.unbosque.controlador;
+
+//esta es la clase principal
+public class PrimerPrograma {
+	// esta es la funcion principal
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+		int numero1, numero2, numero3, numero4, numero5, numero6, numero7, numero8;
+		numero1 = 1;
+		numero2 = 1;
+		numero3 = 1;
+		numero4 = 1;
+		numero5 = 1;
+		numero6 = 1;
+		numero7 = 1;
+		numero8 = 1;
+
+		long l1, l2, l3, l4, l5, l6, l7, l8;
+		l1 = 1000000l;
+		l2 = 1000000l;
+		l3 = 1000000l;
+		l4 = 1000000l;
+		l5 = 1000000l;
+		l6 = 1000000l;
+		l7 = 1000000l;
+		l8 = 1000000l;
+
+		float f1, f2, f3, f4, f5, f6, f7, f8;
+		f1=3.14f;
+		f2=3.14f;
+		f3=3.14f;
+		f4=3.14f;
+		f5=3.14f;
+		f6=3.14f;
+		f7=3.14f;
+		f8=3.14f;
+		
+		double d1,d2,d3,d4,d5,d6,d7,d8;
+		d1=3.14444444444444444;
+		d2=3.14444444444444444;
+		d3=3.14444444444444444;
+		d4=3.14444444444444444;
+		d5=3.14444444444444444;
+		d6=3.14444444444444444;
+		d7=3.14444444444444444;
+		d8=3.14444444444444444;
+		
+		System.out.println(numero1);
+		System.out.println(numero2);
+		System.out.println(numero3);
+		System.out.println(numero4);
+		System.out.println(numero5);
+		System.out.println(numero6);
+		System.out.println(numero7);
+		System.out.println(numero8);
+		
+		System.out.println(l1);
+		System.out.println(l2);
+		System.out.println(l3);
+		System.out.println(l4);
+		System.out.println(l5);
+		System.out.println(l6);
+		System.out.println(l7);
+		System.out.println(l8);
+		
+		
+		System.out.println(f1);
+		System.out.println(f2);
+		System.out.println(f3);
+		System.out.println(f4);
+		System.out.println(f5);
+		System.out.println(f6);
+		System.out.println(f7);
+		System.out.println(f8);
+		
+		char letra1, letra2,letra3,letra4,letra5,letra6,letra7,letra8; 
+		
+		letra1= 'a';
+		letra2= 'a';
+		letra3= 'a';
+		letra4= 'a';
+		letra5= 'a';
+		letra6= 'a';
+		letra7= 'a';
+		letra8= 'a';
+		
+		String frase1, frase2,frase3,frase4, frase5, frase6, frase7, frase8;
+		frase1="ola k hace";
+		frase2="ola k hace";
+		frase3="ola k hace";
+		frase4="ola k hace";
+		frase5="ola k hace";
+		frase6="ola k hace";
+		frase7="ola k hace";
+		frase8="ola k hace";
+		
+		
+		
+		
+		boolean b1,b2,b3,b4,b5,b6,b7,b8;
+		b1= false;
+		b2= true;
+		b3= false;
+		b4= true;
+		b5= false;
+		b6= true;
+		b7= false;
+		b8= true;
+		
+		System.out.println(letra1);
