@@ -1,0 +1,52 @@
+package proyecto;
+
+
+public class principal {
+	public static void main(String arg  [ ]) {
+		Gato  gato1 = new Gato();
+		
+		gato1.nombre = "Jax";
+		gato1.alturacm = 25;
+		gato1.color = "rojo";
+		gato1.sexo = 'M';
+		gato1.edadmeses = 2;
+		gato1.raza = "persa";
+		
+        Gato  gato2 = new Gato();
+		
+		gato2.nombre = "Jax";
+		gato2.alturacm = 25;
+		gato2.color = "rojo";
+		gato2.sexo = 'M';
+		gato2.edadmeses = 2;
+		gato2.raza = "persa";
+		
+		
+	}
+	
+
+}
+
+
+
+package proyecto;
+
+public class Gato {
+	String nombre;
+	int alturacm;
+	String color;
+	char sexo;
+	int edadmeses;
+	String raza;
+ 
+	public void caminar(){
+		System.out.println("camina");
+	}
+	public void comer(){
+		System.out.println("come");
+	}
+	public void defecar(){
+		System.out.println("defeca");
+	}
+
+}
