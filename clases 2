@@ -1,0 +1,61 @@
+package co.edu.unbosque.controlador;
+
+public class Principal {
+	public static void main(String arg  [ ]) {
+		Gato  gato1 = new Gato();
+
+		gato1.nombre = "Jax";
+		gato1.alturacm = 25;
+		gato1.color = "rojo";
+		gato1.sexo = 'M';
+		gato1.edadmeses = 2;
+		gato1.raza = "persa";
+
+        Gato  gato2 = new Gato();
+
+		gato2.nombre = "Sol";
+		gato2.alturacm = 35;
+		gato2.color = "azul";
+		gato2.sexo = 'M';
+		gato2.edadmeses = 9;
+		gato2.raza = "maine";
+		
+		Gato  gato3 = new Gato();
+
+		gato3.nombre = "luna";
+		gato3.alturacm = 20;
+		gato3.color = "blanco";
+		gato3.sexo = 'H';
+		gato3.edadmeses = 6;
+		gato3.raza = "siames";
+		
+		System.out.println(gato1.alturacm);
+	}
+}
+
+
+
+
+
+package co.edu.unbosque.controlador;
+
+
+public class Gato {
+	String nombre;
+	int alturacm;
+	String color;
+	char sexo;
+	int edadmeses;
+	String raza;
+
+	public void caminar(){
+		System.out.println("camina");
+	}
+	public void comer(){
+		System.out.println("come");
+	}
+	public void defecar(){
+		System.out.println("defeca");
+	}
+
+}
